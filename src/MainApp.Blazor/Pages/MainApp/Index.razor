@@ -1,0 +1,8 @@
+@page "/MainApp"
+@using Microsoft.Extensions.Localization
+@using global::MainApp.Localization
+@inject IStringLocalizer<MainAppResource> L
+@{
+}
+<h1>MainApp</h1>
+<p>@L["SamplePageMessage"]</p>

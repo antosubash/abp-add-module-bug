@@ -1,0 +1,8 @@
+@page "/ModuleOne"
+@using Microsoft.Extensions.Localization
+@using global::MainApp.ModuleOne.Localization
+@inject IStringLocalizer<ModuleOneResource> L
+@{
+}
+<h1>ModuleOne</h1>
+<p>@L["SamplePageMessage"]</p>

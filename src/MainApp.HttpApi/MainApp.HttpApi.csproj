@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>MainApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="4.4.3" />
+    <ProjectReference Include="..\MainApp.Application.Contracts\MainApp.Application.Contracts.csproj" />
+  <ProjectReference Include="..\..\modules\MainApp.ModuleOne\src\MainApp.ModuleOne.HttpApi\MainApp.ModuleOne.HttpApi.csproj" /></ItemGroup>
+
+</Project>

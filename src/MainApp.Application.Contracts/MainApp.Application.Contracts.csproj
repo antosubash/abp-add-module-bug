@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>MainApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="4.4.3" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="4.4.3" />
+    <ProjectReference Include="..\MainApp.Domain.Shared\MainApp.Domain.Shared.csproj" />
+  <ProjectReference Include="..\..\modules\MainApp.ModuleOne\src\MainApp.ModuleOne.Application.Contracts\MainApp.ModuleOne.Application.Contracts.csproj" /></ItemGroup>
+
+</Project>

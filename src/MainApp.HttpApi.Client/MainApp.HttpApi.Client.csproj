@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>MainApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Http.Client" Version="4.4.3" />
+    <ProjectReference Include="..\MainApp.Application.Contracts\MainApp.Application.Contracts.csproj" />
+  <ProjectReference Include="..\..\modules\MainApp.ModuleOne\src\MainApp.ModuleOne.HttpApi.Client\MainApp.ModuleOne.HttpApi.Client.csproj" /></ItemGroup>
+
+</Project>
